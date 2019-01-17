@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E52067A21F103A800559820 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E52067921F103A800559820 /* AppDelegate.m */; };
+		5E52067D21F103A800559820 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E52067C21F103A800559820 /* ViewController.m */; };
+		5E52068021F103A800559820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E52067E21F103A800559820 /* Main.storyboard */; };
+		5E52068321F103A800559820 /* CamDash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E52068121F103A800559820 /* CamDash.xcdatamodeld */; };
+		5E52068521F103A900559820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E52068421F103A900559820 /* Assets.xcassets */; };
+		5E52068821F103A900559820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E52068621F103A900559820 /* LaunchScreen.storyboard */; };
+		5E52068B21F103A900559820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E52068A21F103A900559820 /* main.m */; };
+		5E52069521F103A900559820 /* CamDashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E52069421F103A900559820 /* CamDashTests.m */; };
+		5E5206A021F103A900559820 /* CamDashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E52069F21F103A900559820 /* CamDashUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E52069121F103A900559820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E52066D21F103A800559820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E52067421F103A800559820;
+			remoteInfo = CamDash;
+		};
+		5E52069C21F103A900559820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E52066D21F103A800559820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E52067421F103A800559820;
+			remoteInfo = CamDash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E52067521F103A800559820 /* CamDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E52067821F103A800559820 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E52067921F103A800559820 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E52067B21F103A800559820 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E52067C21F103A800559820 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E52067F21F103A800559820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E52068221F103A800559820 /* CamDash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CamDash.xcdatamodel; sourceTree = "<group>"; };
+		5E52068421F103A900559820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E52068721F103A900559820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E52068921F103A900559820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E52068A21F103A900559820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E52069021F103A900559820 /* CamDashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamDashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E52069421F103A900559820 /* CamDashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamDashTests.m; sourceTree = "<group>"; };
+		5E52069621F103A900559820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E52069B21F103A900559820 /* CamDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E52069F21F103A900559820 /* CamDashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamDashUITests.m; sourceTree = "<group>"; };
+		5E5206A121F103A900559820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E52067221F103A800559820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E52068D21F103A900559820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E52069821F103A900559820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E52066C21F103A800559820 = {
+			isa = PBXGroup;
+			children = (
+				5E52067721F103A800559820 /* CamDash */,
+				5E52069321F103A900559820 /* CamDashTests */,
+				5E52069E21F103A900559820 /* CamDashUITests */,
+				5E52067621F103A800559820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E52067621F103A800559820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E52067521F103A800559820 /* CamDash.app */,
+				5E52069021F103A900559820 /* CamDashTests.xctest */,
+				5E52069B21F103A900559820 /* CamDashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E52067721F103A800559820 /* CamDash */ = {
+			isa = PBXGroup;
+			children = (
+				5E52067821F103A800559820 /* AppDelegate.h */,
+				5E52067921F103A800559820 /* AppDelegate.m */,
+				5E52067B21F103A800559820 /* ViewController.h */,
+				5E52067C21F103A800559820 /* ViewController.m */,
+				5E52067E21F103A800559820 /* Main.storyboard */,
+				5E52068421F103A900559820 /* Assets.xcassets */,
+				5E52068621F103A900559820 /* LaunchScreen.storyboard */,
+				5E52068921F103A900559820 /* Info.plist */,
+				5E52068A21F103A900559820 /* main.m */,
+				5E52068121F103A800559820 /* CamDash.xcdatamodeld */,
+			);
+			path = CamDash;
+			sourceTree = "<group>";
+		};
+		5E52069321F103A900559820 /* CamDashTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E52069421F103A900559820 /* CamDashTests.m */,
+				5E52069621F103A900559820 /* Info.plist */,
+			);
+			path = CamDashTests;
+			sourceTree = "<group>";
+		};
+		5E52069E21F103A900559820 /* CamDashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E52069F21F103A900559820 /* CamDashUITests.m */,
+				5E5206A121F103A900559820 /* Info.plist */,
+			);
+			path = CamDashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E52067421F103A800559820 /* CamDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5206A421F103A900559820 /* Build configuration list for PBXNativeTarget "CamDash" */;
+			buildPhases = (
+				5E52067121F103A800559820 /* Sources */,
+				5E52067221F103A800559820 /* Frameworks */,
+				5E52067321F103A800559820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamDash;
+			productName = CamDash;
+			productReference = 5E52067521F103A800559820 /* CamDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E52068F21F103A900559820 /* CamDashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5206A721F103A900559820 /* Build configuration list for PBXNativeTarget "CamDashTests" */;
+			buildPhases = (
+				5E52068C21F103A900559820 /* Sources */,
+				5E52068D21F103A900559820 /* Frameworks */,
+				5E52068E21F103A900559820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E52069221F103A900559820 /* PBXTargetDependency */,
+			);
+			name = CamDashTests;
+			productName = CamDashTests;
+			productReference = 5E52069021F103A900559820 /* CamDashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E52069A21F103A900559820 /* CamDashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5206AA21F103A900559820 /* Build configuration list for PBXNativeTarget "CamDashUITests" */;
+			buildPhases = (
+				5E52069721F103A900559820 /* Sources */,
+				5E52069821F103A900559820 /* Frameworks */,
+				5E52069921F103A900559820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E52069D21F103A900559820 /* PBXTargetDependency */,
+			);
+			name = CamDashUITests;
+			productName = CamDashUITests;
+			productReference = 5E52069B21F103A900559820 /* CamDashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E52066D21F103A800559820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Arpit Panda";
+				TargetAttributes = {
+					5E52067421F103A800559820 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5E52068F21F103A900559820 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5E52067421F103A800559820;
+					};
+					5E52069A21F103A900559820 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5E52067421F103A800559820;
+					};
+				};
+			};
+			buildConfigurationList = 5E52067021F103A800559820 /* Build configuration list for PBXProject "CamDash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E52066C21F103A800559820;
+			productRefGroup = 5E52067621F103A800559820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E52067421F103A800559820 /* CamDash */,
+				5E52068F21F103A900559820 /* CamDashTests */,
+				5E52069A21F103A900559820 /* CamDashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E52067321F103A800559820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E52068821F103A900559820 /* LaunchScreen.storyboard in Resources */,
+				5E52068521F103A900559820 /* Assets.xcassets in Resources */,
+				5E52068021F103A800559820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E52068E21F103A900559820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E52069921F103A900559820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E52067121F103A800559820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E52067D21F103A800559820 /* ViewController.m in Sources */,
+				5E52068321F103A800559820 /* CamDash.xcdatamodeld in Sources */,
+				5E52068B21F103A900559820 /* main.m in Sources */,
+				5E52067A21F103A800559820 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E52068C21F103A900559820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E52069521F103A900559820 /* CamDashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E52069721F103A900559820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5206A021F103A900559820 /* CamDashUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E52069221F103A900559820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E52067421F103A800559820 /* CamDash */;
+			targetProxy = 5E52069121F103A900559820 /* PBXContainerItemProxy */;
+		};
+		5E52069D21F103A900559820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E52067421F103A800559820 /* CamDash */;
+			targetProxy = 5E52069C21F103A900559820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E52067E21F103A800559820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E52067F21F103A800559820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E52068621F103A900559820 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E52068721F103A900559820 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E5206A221F103A900559820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E5206A321F103A900559820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5206A521F103A900559820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = CamDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.ZDDogfood.CamDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E5206A621F103A900559820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = CamDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.ZDDogfood.CamDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E5206A821F103A900559820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = CamDashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.ZDDogfood.CamDashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamDash.app/CamDash";
+			};
+			name = Debug;
+		};
+		5E5206A921F103A900559820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = CamDashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.ZDDogfood.CamDashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamDash.app/CamDash";
+			};
+			name = Release;
+		};
+		5E5206AB21F103A900559820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = CamDashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.ZDDogfood.CamDashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamDash;
+			};
+			name = Debug;
+		};
+		5E5206AC21F103A900559820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MGC42GYEBQ;
+				INFOPLIST_FILE = CamDashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zendrive.ZDDogfood.CamDashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamDash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E52067021F103A800559820 /* Build configuration list for PBXProject "CamDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5206A221F103A900559820 /* Debug */,
+				5E5206A321F103A900559820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5206A421F103A900559820 /* Build configuration list for PBXNativeTarget "CamDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5206A521F103A900559820 /* Debug */,
+				5E5206A621F103A900559820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5206A721F103A900559820 /* Build configuration list for PBXNativeTarget "CamDashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5206A821F103A900559820 /* Debug */,
+				5E5206A921F103A900559820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5206AA21F103A900559820 /* Build configuration list for PBXNativeTarget "CamDashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5206AB21F103A900559820 /* Debug */,
+				5E5206AC21F103A900559820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E52068121F103A800559820 /* CamDash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E52068221F103A800559820 /* CamDash.xcdatamodel */,
+			);
+			currentVersion = 5E52068221F103A800559820 /* CamDash.xcdatamodel */;
+			path = CamDash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E52066D21F103A800559820 /* Project object */;
+}
